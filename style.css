@@ -1,0 +1,85 @@
+/* Header */
+.site-header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  padding: 10px;
+  z-index: 1000;
+}
+.site-header h1 {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #31241e /*colores usados en el wireframe*/
+}
+.site-header img {
+  width: 60px;
+  margin-right: 10px;
+}
+
+/* Barra de Navegación */
+.navbar-nav {
+    margin-left: auto;
+}
+.navbar-nav .nav-link {
+  padding: 10px 15px;
+  color:#86654b; /*colores usados en el wireframe*/
+  text-decoration: none;
+}
+.navbar {
+    border-bottom: 1px solid #31241e; /*colores usados en el wireframe*/
+}
+
+/* Contenido principal */
+.main-content {
+    width: 100%;
+}
+
+/* Imágenes */
+.main-img {
+    width: 100%;
+    height: auto;
+    margin-left: 10px;       
+    margin-right: 40px;
+    border: 2px solid #31241e;
+    display: block;         
+}
+
+/* Subtítulos */
+h2 {
+    color:#1e1d1a;
+    margin: 2rem;
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* Secciones */
+section {
+    background-color: #f5f5f5; 
+    color: blue;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Formulario */
+.formulario {
+    color: #d1c8c1;
+    max-width: 600px;
+    margin: 20px auto;
+
+}
+.section h3 {
+   color:#1e1d1a;
+    margin: 2rem;
+    font-size: 20px;
+    font-style: italic;
+}
+.section p {
+   color:#1e1d1a;
+    margin: 2rem;
+    font-size: 20px;
+    font-style: italic;
+}
