@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Header */
 .site-header {
   position: sticky;
@@ -6,14 +7,16 @@
   padding: 10px;
   z-index: 1000;
 }
+
 .site-header h1 {
   margin: 0;
   display: flex;
   align-items: center;
   font-size: 20px;
   text-transform: uppercase;
-  color: #31241e;/*colores usados en el wireframe*/
+  color: #31241e; /*colores usados en el wireframe*/
 }
+
 .site-header img {
   width: 60px;
   margin-right: 10px;
@@ -21,41 +24,43 @@
 
 /* Barra de Navegación */
 .navbar-nav {
-    margin-left: auto;
+  margin-left: auto;
 }
+
 .navbar-nav .nav-link {
   padding: 10px 15px;
-  color:#86654b; /*colores usados en el wireframe*/
+  color: #86654b; /*colores usados en el wireframe*/
   text-decoration: none;
 }
+
 .navbar {
-    border-bottom: 1px solid #31241e; /*colores usados en el wireframe*/
+  border-bottom: 1px solid #31241e; /*colores usados en el wireframe*/
 }
 
 /* Contenido principal */
 .main-content {
-    width: 100%;
+  width: 100%;
 }
 
 /* Imágenes */
 .main-img {
-    width: 100%;
-    height: auto;
-    margin-left: 10px;       
-    margin-right: 40px;
-    border: 2px solid #31241e;
-    display: block;         
+  width: 100%;
+  height: auto;
+  margin-left: 10px;
+  margin-right: 40px;
+  border: 2px solid #31241e;
+  display: block;
 }
 
 /* Subtítulos */
 h2 {
-    color:#1e1d1a;
-    margin: 2rem;
-    font-size: 20px;
-    font-style: italic;
+  color: #1e1d1a;
+  margin: 2rem;
+  font-size: 20px;
+  font-style: italic;
 }
-/*Pagina contactanos*/
 
+/*Pagina contactanos*/
 /* Formulario */
 .formulario {
   color: #d1c8c1;
@@ -113,3 +118,5 @@ h2 {
   font-size: 16px;
   line-height: 1.5;
 }
+
+/*# sourceMappingURL=style.css.map */
