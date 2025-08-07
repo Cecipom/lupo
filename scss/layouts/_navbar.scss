@@ -1,0 +1,39 @@
+.navbar {
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+
+    .navbar-toggler {
+      border: solid;
+      color: #86654b;
+    }
+
+    .navbar-collapse {
+      justify-content: flex-end;
+
+      .navbar-nav {
+        display: flex;
+        gap: 1rem;
+
+        .nav-item {
+          .nav-link {
+            color: #86654b;
+            font-weight: normal;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+
+            &:hover {
+              border-radius: 5px;
+            }
+
+            &.active {
+              font-weight: bold;
+              border-radius: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

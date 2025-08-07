@@ -1,0 +1,38 @@
+// Colores
+@use "layouts/variables";
+// Header
+@use "layouts/siteheader";
+//Barra de Navegación 
+@use "layouts/navbar";
+//Imágenes
+@use "layouts/imagenes";
+//Pagina contacto Formulario 
+@use "layouts/forms";
+// Textos y parrafos
+@use "layouts/textos";
+
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+// Contenido principal 
+.main-content {
+    width: 50%;
+    height: 20%;
+}
+
+/*Pagina servicios*/
+.servicio {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.servicio.reverse {
+  flex-direction: row-reverse;
+}
+.nav-link{
+  color:#86654b;
+  font-style: bold;
+}

@@ -1,0 +1,43 @@
+.contenedor-formulario {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.contacto {
+  flex: 1;
+  text-align: left;
+}
+.form {
+  flex: 1;
+}
+
+.formulario {
+  color: #31241e;
+}
+
+.formulario input,
+.formulario textarea {
+  background-color: #f6f4f3; 
+  color: #31241e;
+  border: 1px solid #ccc;
+}
+
+.boton {
+  background-color: #86654b;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  cursor: pointer;
+
+ &:hover {
+    background-color: #6f4d39;
+  }
+}
