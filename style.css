@@ -46,6 +46,11 @@
   border-radius: 5px;
 }
 
+.nav-link {
+  color: #86654b;
+  font-style: bold;
+}
+
 .site-header img {
   width: 80px;
   margin-right: 10px;
@@ -53,18 +58,37 @@
 
 .main-img {
   width: 100%;
-  height: auto;
-  margin-left: 10px;
-  margin-right: 40px;
-  border: 2px solid #31241e;
+  height: 50%;
+  box-sizing: border-box;
+  margin-top: 2px;
+  border: 2px 0.1 #31241e;
   display: block;
 }
 
+.servicio {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
 .servicio img {
-  width: 100%;
-  border-radius: 8px;
+  display: block;
+  width: 80%;
+  height: 316px;
+  object-fit: cover;
+  border-radius: 20px;
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: slideIn 1s forwards ease-out;
+  animation-delay: 0.3s;
 }
 
+@keyframes slideIn {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 .contenedor-formulario {
   display: flex;
   justify-content: space-between;
@@ -132,13 +156,25 @@ p {
   line-height: 1.5;
 }
 
+.uno {
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: bounceInDown;
+  animation-duration: 1.5s;
+}
+
+.uno p {
+  font-size: 2rem;
+  text-align: center;
+}
+
 * {
   font-family: "Raleway", sans-serif;
 }
 
 .main-content {
-  width: 50%;
-  height: 20%;
+  width: 100%;
+  height: 10%;
 }
 
 /*Pagina servicios*/
@@ -151,11 +187,6 @@ p {
 
 .servicio.reverse {
   flex-direction: row-reverse;
-}
-
-.nav-link {
-  color: #86654b;
-  font-style: bold;
 }
 
 /*# sourceMappingURL=style.css.map */

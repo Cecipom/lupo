@@ -19,3 +19,15 @@ h3 {
   font-size: 1rem;
   line-height: 1.5;
 }
+
+.uno {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounceInDown; 
+  animation-duration: 1.5s; 
+}
+.uno p{
+font-size: 2rem;
+text-align: center;
+}
