@@ -6,7 +6,7 @@
 .site-header {
   position: sticky;
   top: 0;
-  background: color #f6f4f3;
+  background: #f6f4f3;
   padding: 10px;
   z-index: 1000;
 }
@@ -81,13 +81,13 @@
 
 .formulario input,
 .formulario textarea {
-  background-color: #f6f4f3;
+  background: #f6f4f3;
   color: #31241e;
   border: 1px solid #ccc;
 }
 
 .boton {
-  background-color: #86654b;
+  background: #86654b;
   color: white;
   padding: 0.5rem 1rem;
   font-size: 1rem;
@@ -97,7 +97,7 @@
   cursor: pointer;
 }
 .boton:hover {
-  background-color: #6f4d39;
+  background: #6f4d39;
 }
 
 h2 {

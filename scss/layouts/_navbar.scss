@@ -1,3 +1,5 @@
+@use "variables";
+
 .navbar {
   .container-fluid {
     padding-left: 0;
@@ -5,7 +7,7 @@
 
     .navbar-toggler {
       border: solid;
-      color: #86654b;
+      color: variables.$color-barra;
     }
 
     .navbar-collapse {
@@ -17,7 +19,7 @@
 
         .nav-item {
           .nav-link {
-            color: #86654b;
+            color: variables.$color-barra;
             font-weight: normal;
             text-decoration: none;
             padding: 0.5rem 1rem;
@@ -37,7 +39,7 @@
     }
   }
 }
-.nav-link{
-  color:#86654b;
+.nav-link {
+  color: variables.$color-barra;
   font-style: bold;
 }

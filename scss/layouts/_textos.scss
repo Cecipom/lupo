@@ -1,5 +1,7 @@
+@use "variables";
+
 h2 {
-    color:#1e1d1a;
+    color: variables.$color-titulos;
     margin: 3rem;
     font-size: 2rem;
     margin-bottom: 5px;

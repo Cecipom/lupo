@@ -22,7 +22,7 @@ body {
     height: 50%;  
     box-sizing: border-box;
     margin-top: 3px;
-    border: 2px 0.1 #31241e;
+    border: 2px 0.1 variables.$color-primario;
     display: block;
   }
 }
@@ -31,7 +31,7 @@ body {
 .servicio {
   display: flex;
   align-items: center;
-  gap: 2rem;  // unificá la medida que prefieras
+  gap: 2rem;  
   margin-bottom: 3rem;
 
   img {
@@ -58,3 +58,4 @@ body {
     transform: translateX(0);
   }
 }
+

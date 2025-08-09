@@ -1,3 +1,5 @@
+@use "variables";
+
 .site-header img {
   width: 80px;
   margin-right: 10px;
@@ -6,7 +8,7 @@
 .site-header {
   position: sticky;
   top: 0;
-  background: color #f6f4f3;
+  background: variables.$color-fondo;
   padding: 10px;
   z-index: 1000;
 }
@@ -17,5 +19,5 @@
   font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: bolder;
-  color: #31241e;
+  color: variables.$color-primario;
 }
